@@ -59,6 +59,14 @@ enum class TaskStatus {
             DONE -> "Done"
         }
     }
+
+    fun getThemeAttribute(): Int {
+        return when (this) {
+            TODO -> com.kanbanboard.R.attr.taskTodoColor
+            IN_PROGRESS -> com.kanbanboard.R.attr.taskInProgressColor
+            DONE -> com.kanbanboard.R.attr.taskDoneColor
+        }
+    }
 }
 
 enum class TaskPriority {
