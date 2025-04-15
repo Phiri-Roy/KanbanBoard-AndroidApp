@@ -48,7 +48,11 @@ class TaskAdapter(
             tvDueDate.text = task.dueDate?.let { "Due: ${dateFormat.format(it)}" } ?: "No due date"
             tvPriority.text = task.priority.toDisplayString()
             tvPriority.setBackgroundColor(task.priority.getColor())
-            viewPriorityIndicator.setBackgroundColor(task.priority.getColor())
+            // Get color from theme attribute
+            val typedArray = itemView.context.theme.obtainStyledAttributes(intArrayOf(task.status.getThemeAttribute()))
+            val statusColor = typedArray.getColor(0, 0)
+            typedArray.recycle()
+            viewPriorityIndicator.setBackgroundColor(statusColor)
 
             // Set click listener for the whole item
             itemView.setOnClickListener { onTaskClick(task) }
