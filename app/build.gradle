@@ -1,3 +1,7 @@
+// Enable AndroidX
+android.useAndroidX = true
+android.enableJetifier = true
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -53,6 +57,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.google.firebase:firebase-firestore-ktx'
     implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
     
     // ViewModel & LiveData
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
