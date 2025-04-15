@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.KanbanBoard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorError">@color/error</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">#757575</item>
+        
+        <!-- Custom attributes -->
+        <item name="taskTodoColor">@color/task_todo</item>
+        <item name="taskInProgressColor">@color/task_in_progress</item>
+        <item name="taskDoneColor">@color/task_done</item>
+    </style>
+
+    <!-- No Action Bar theme -->
+    <style name="Theme.KanbanBoard.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Text Appearance -->
+    <style name="TextAppearance.KanbanBoard.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.KanbanBoard.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.KanbanBoard.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.KanbanBoard.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Widget.KanbanBoard.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <!-- Card styles -->
+    <style name="Widget.KanbanBoard.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+</resources>
