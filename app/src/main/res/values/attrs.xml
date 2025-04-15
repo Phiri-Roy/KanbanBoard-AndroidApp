@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="taskTodoColor" format="color" />
+    <attr name="taskInProgressColor" format="color" />
+    <attr name="taskDoneColor" format="color" />
+</resources>
