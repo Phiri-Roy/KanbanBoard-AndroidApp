@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.google.firebase.firestore.ListenerRegistration
 import com.kanbanboard.firebase.FirebaseHelper
 import com.kanbanboard.models.Task
+import com.kanbanboard.models.TaskPriority
 import com.kanbanboard.models.TaskStatus
 import kotlinx.coroutines.launch
 import java.util.Date
