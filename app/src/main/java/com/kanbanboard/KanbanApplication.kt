@@ -29,10 +29,8 @@ class KanbanApplication : Application() {
     }
 
     private fun setupFirestore() {
-        // Enable Firestore offline persistence
-        val settings = FirebaseFirestoreSettings.Builder()
-            .setPersistenceEnabled(true)
-            .build()
+        // Configure Firestore with default settings (persistence is enabled by default)
+        val settings = FirebaseFirestoreSettings.Builder().build()
         FirebaseFirestore.getInstance().firestoreSettings = settings
     }
 
