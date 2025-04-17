@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KanbanBoard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        
+        <item name="colorSecondary">@color/secondary_dark</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        
+        <item name="android:statusBarColor">@color/black</item>
+
+        
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorError">@color/error</item>
+
+        
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#BDBDBD</item>
+
+        
+        <item name="taskTodoColor">@color/task_todo</item>
+        <item name="taskInProgressColor">@color/task_in_progress</item>
+        <item name="taskDoneColor">@color/task_done</item>
+    </style>
+    <style name="Theme.KanbanBoard.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget.KanbanBoard.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/surface_dark</item>
+    </style>
+</resources>

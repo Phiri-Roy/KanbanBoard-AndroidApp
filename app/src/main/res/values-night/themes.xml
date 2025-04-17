@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Dark application theme -->
-    <style name="Theme.KanbanBoard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.KanbanBoard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color -->
         <item name="colorPrimary">@color/primary_dark</item>
         <item name="colorPrimaryVariant">@color/primary</item>
         <item name="colorOnPrimary">@color/black</item>
-        
+
         <!-- Secondary brand color -->
         <item name="colorSecondary">@color/secondary_dark</item>
         <item name="colorSecondaryVariant">@color/secondary</item>
         <item name="colorOnSecondary">@color/white</item>
-        
+
         <!-- Status bar color -->
         <item name="android:statusBarColor">@color/black</item>
-        
+
         <!-- Background colors -->
         <item name="android:colorBackground">@color/background_dark</item>
         <item name="colorSurface">@color/surface_dark</item>
         <item name="colorError">@color/error</item>
-        
+
         <!-- Text colors -->
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">#BDBDBD</item>
-        
+
         <!-- Custom attributes -->
         <item name="taskTodoColor">@color/task_todo</item>
         <item name="taskInProgressColor">@color/task_in_progress</item>
         <item name="taskDoneColor">@color/task_done</item>
     </style>
 
-    <!-- Inherit other styles from the light theme -->
+    <!-- No Action Bar theme -->
     <style name="Theme.KanbanBoard.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <!-- Text Appearance (inherits from light mode, override if needed) -->
 
     <!-- Dark mode specific card style -->
     <style name="Widget.KanbanBoard.CardView" parent="Widget.MaterialComponents.CardView">
@@ -43,4 +46,5 @@
         <item name="android:layout_margin">8dp</item>
         <item name="cardBackgroundColor">@color/surface_dark</item>
     </style>
+
 </resources>

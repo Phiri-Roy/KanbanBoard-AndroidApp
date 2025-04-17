@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_dark_mode"
+        android:icon="@android:drawable/ic_menu_day"
+        android:title="@string/text_dark_mode"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:title="@string/text_notifications"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/btn_logout"
+        app:showAsAction="never" />
+
+</menu>

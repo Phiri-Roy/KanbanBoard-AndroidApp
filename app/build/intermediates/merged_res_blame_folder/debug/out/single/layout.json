@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.kanbanboard.app-mergeDebugResources-44:/layout/activity_splash.xml",
+        "source": "com.kanbanboard.app-main-47:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.kanbanboard.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.kanbanboard.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.kanbanboard.app-mergeDebugResources-44:/layout/activity_auth.xml",
+        "source": "com.kanbanboard.app-main-47:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.kanbanboard.app-mergeDebugResources-44:/layout/item_task.xml",
+        "source": "com.kanbanboard.app-main-47:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.kanbanboard.app-mergeDebugResources-44:/layout/dialog_task.xml",
+        "source": "com.kanbanboard.app-main-47:/layout/dialog_task.xml"
+    },
+    {
+        "merged": "com.kanbanboard.app-mergeDebugResources-44:/layout/fragment_task_list.xml",
+        "source": "com.kanbanboard.app-main-47:/layout/fragment_task_list.xml"
+    }
+]

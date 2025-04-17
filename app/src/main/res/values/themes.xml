@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme -->
-    <style name="Theme.KanbanBoard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.KanbanBoard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        
+
         <!-- Secondary brand color -->
         <item name="colorSecondary">@color/secondary</item>
         <item name="colorSecondaryVariant">@color/secondary_dark</item>
         <item name="colorOnSecondary">@color/black</item>
-        
+
         <!-- Status bar color -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        
+
         <!-- Background colors -->
         <item name="android:colorBackground">@color/background_light</item>
         <item name="colorSurface">@color/surface_light</item>
         <item name="colorError">@color/error</item>
-        
+
         <!-- Text colors -->
         <item name="android:textColorPrimary">@color/black</item>
         <item name="android:textColorSecondary">#757575</item>
-        
+
         <!-- Custom attributes -->
         <item name="taskTodoColor">@color/task_todo</item>
         <item name="taskInProgressColor">@color/task_in_progress</item>
@@ -70,4 +71,5 @@
         <item name="cardCornerRadius">8dp</item>
         <item name="android:layout_margin">8dp</item>
     </style>
+
 </resources>
